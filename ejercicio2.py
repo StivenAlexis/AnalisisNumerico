@@ -31,3 +31,5 @@ print("Raíz:", raiz)
 print("LOL")
 
 prtin("lucas feo")
+
+print("Stiven PUTO")
