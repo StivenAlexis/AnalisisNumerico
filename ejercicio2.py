@@ -27,3 +27,5 @@ raiz = falsa_posicion(a, b)
 
 # Print the result
 print("Raíz:", raiz)
+
+print("LOL")
