@@ -4,7 +4,7 @@ import math
 def g(x):
     return math.tan(math.radians(x-math.pi))
 
-def puntof(x0,errorLim):
+def metodoDePuntoFijo(x0,errorLim):
     xr=x0
     iter=0
     while True:
@@ -29,4 +29,4 @@ def puntof(x0,errorLim):
 
     return xr
 
-puntof(4.5,0.001)
+metodoDePuntoFijo(4.5,0.001)
