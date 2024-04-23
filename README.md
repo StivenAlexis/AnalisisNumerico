@@ -21,7 +21,7 @@ Utilice la iteraci´on simple de punto fijo para localizar la ra´ız de
 f(x) = tan(x − π) − x.
 En el intervalo [4, 5]. e itere hasta que de εa ≤ 0,001 %.
 4. (20 pts.)
-Utilice los metodos de iteraci´on de la secante y Newton-Raphson para determinar una ra´ız de
+Utilice los metodos de iteracion de la secante y Newton-Raphson para determinar una raız de
 f(x) = −x^2 + 1, 8 x + 2, 5
 Utilice como valor inicial x = 5.
 Haga el calculo hasta que εa ≤ 0,05 %.
