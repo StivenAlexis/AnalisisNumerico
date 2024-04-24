@@ -1,4 +1,4 @@
-import numpy as np  # Import NumPy library
+import numpy as np 
 
 def funcionquetengo(x):
     return (np.log(x**2)-0.7)
@@ -6,6 +6,8 @@ def funcionquetengo(x):
 def metodoFalsaPosicion(extremo_inferior, extremo_superior,cantidad_iteraciones):
   for i in range(cantidad_iteraciones):
     print("Iteracion numero",i+1)
+    print("Extremo Inferior",extremo_inferior,"f(xl) evaluada en el punto inferior",funcionquetengo(extremo_inferior))
+    print("Extremo Superior",extremo_superior,"f(xu) evaluada en el punto superior",funcionquetengo(extremo_superior))
     valor_f_xr=extremo_superior-((funcionquetengo(extremo_superior)*(extremo_inferior-extremo_superior))/funcionquetengo(extremo_inferior)-funcionquetengo(extremo_superior))
     print("valor de xr",valor_f_xr,"Valor de la funcion en xr",funcionquetengo(valor_f_xr))
     if funcionquetengo(valor_f_xr)*funcionquetengo(extremo_inferior)<0:
