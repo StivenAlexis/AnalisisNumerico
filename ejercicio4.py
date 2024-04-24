@@ -20,6 +20,7 @@ def metodoNewtonRaphson(f,errorlim,x0):
         print("El error porcentual es", errorPorcentual)
         print("El valor de la raiz es", x1)
         print()
+        
         while (abs(errorAbsoluto) > errorlim):
             x0=x1
             x1= x0 -( f(x0)/fDerivada)

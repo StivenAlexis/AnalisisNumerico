@@ -20,7 +20,7 @@ def metodoFalsaPosicion(extremo_inferior, extremo_superior,cantidad_iteraciones)
 
 extremo_inferior = 0.5
 extremo_superior = 2
-cantidad_iteraciones=50
+cantidad_iteraciones=3
 
 metodoFalsaPosicion(extremo_inferior,extremo_superior,cantidad_iteraciones)
 

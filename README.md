@@ -13,7 +13,7 @@ b) Usando el metodo de la biseccion. Use los valores iniciales xi = 0 y xu = 1, 
 error aproximado a, este por debajo de es = 10 %.
 2. (12,5 pts.)
 Determine la raiz real de
-ln(x2) = 0, 7
+ln(x2) - 0, 7
 a) Gr´aficamente.
 b) Usando 3 iteraciones del m´etodo de la falsa posicion, con valores iniciales de xl = 0, 5 y xu = 2.
 3. (15 pts.)
