@@ -45,15 +45,12 @@ def metodoBiseccion(f,raizInf, raizSup, error):
         fxiList.append(fxi)
         fxlList.append(fxl)
 
-    x_vals = np.linspace(-1, 2, 400)  # Definir valores de x para graficar la función
+    
+    x_vals = np.linspace(-1, 2, 400)  
     plt.plot(x_vals, f(x_vals), label='f(x)')
-
-    # Graficar el intervalo de búsqueda y las iteraciones
-    for i in range(len(resultadoList)):
-        plt.plot([raizInfList[i], raizSupList[i]], [0, 0], 'ro--', label='Intervalo de búsqueda' if i == 0 else None)  # Intervalo de búsqueda
-        plt.plot(resultadoList[i], 0, 'bo', label=f'Iteración {i+1}: x={resultadoList[i]:.4f}' if i == len(resultadoList)-1 else None)  # Punto de la iteración
-
-    plt.axhline(0, color='black', linewidth=0.5)  # Eje x
+    
+    plt.plot(resultadoList[-1], 0, 'bo', label=f'Raíz encontrada: x={resultadoList[-1]:.4f}')
+    plt.axhline(0, color='black', linewidth=0.5)  
     plt.title('Método de Bisección')
     plt.xlabel('x')
     plt.ylabel('f(x)')
