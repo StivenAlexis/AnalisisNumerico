@@ -67,6 +67,7 @@ def metodoBiseccion(f,raizInf, raizSup, error):
         print("f(xr): ", fxrList[i])
         print("f(xl): ", fxlList[i])
         print("f(xi): ", fxiList[i])
+        print ("------------------------------------------------")
         print()
 
 

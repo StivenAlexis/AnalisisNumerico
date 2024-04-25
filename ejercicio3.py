@@ -10,7 +10,6 @@ def metodoDePuntoFijo(x0,errorLim):
     while True:
         xi=xr
         xr=g(xi)
-        print(xr)
         iter += 1
         if xr!=0:
             errorAproximado=abs(((xr-xi)/xr)*100)
@@ -18,7 +17,7 @@ def metodoDePuntoFijo(x0,errorLim):
             errorRelativo=(errorAbsoluto/xr)
         else:
             errorRelativo=0
-        print (f"Iteracion {iter}")
+        print ("Iteracion:", iter)
         print ("El error aproximado es",errorAproximado) 
         print ("El error absoluto es",errorAbsoluto) 
         print ("El error relativo es",errorRelativo)
