@@ -2,7 +2,7 @@
 import math
 
 def g(x):
-    return math.tan(math.radians(x-math.pi))
+    return math.atan(x)+math.pi
 
 def metodoDePuntoFijo(x0,errorLim):
     xr=x0
@@ -17,7 +17,7 @@ def metodoDePuntoFijo(x0,errorLim):
             errorRelativo=(errorAbsoluto/xr)
         else:
             errorRelativo=0
-        print ("Iteracion:", iter)
+        #print ("Iteracion:", iter)
         print ("El error aproximado es",errorAproximado) 
         print ("El error absoluto es",errorAbsoluto) 
         print ("El error relativo es",errorRelativo)

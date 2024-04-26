@@ -45,6 +45,9 @@ def metodoNewtonRaphson(f,errorlim,x0):
             print()
     else:
         print("No se puede resolver por que el signo de sus derivada segunda es diststinta a la funcion en ", x0)
+        
+#Teniendo en cuenta el método de Newton-Raphson las dos primeras iteraciones nos dan el valor de xi-1(5) y de xi(3.353658537) 
+#para poder resolver el método de iteración de la secante")
 
 def secante(f,xi_1,xi,tol,n=10):
     print ("**********Metodo De La Secante**********")
